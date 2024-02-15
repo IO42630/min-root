@@ -7,7 +7,7 @@
     <name>min-root</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <xx.java.version>17</xx.java.version>
+        <xx.java.version>21</xx.java.version>
     </properties>
     <build>
         <pluginManagement>
