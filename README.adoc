@@ -5,3 +5,6 @@
 
 
 * parent pom for `min` projects.
+* determines:
+** plugin versions
+** distribution management (push to local nexus)
