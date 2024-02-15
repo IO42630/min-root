@@ -1,0 +1,7 @@
+= min-root
+:stylesheet: ../../shared/adoc-styles.css
+:toc:
+:toclevels: 4
+
+
+* parent pom for `min` projects.
