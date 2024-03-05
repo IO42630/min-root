@@ -7,7 +7,7 @@
     </parent>
     <groupId>com.olexyn</groupId>
     <artifactId>min-root</artifactId>
-    <version>jdk21-spring-0.0</version>
+    <version>jdk21-spring-0.1</version>
     <packaging>pom</packaging>
     <name>min-root</name>
     <properties>
@@ -32,6 +32,10 @@
                     <configuration>
                         <source>${xx.java.version}</source>
                         <target>${xx.java.version}</target>
+                        <release>${xx.java.version}</release>
+                        <compilerArgs>
+                            <arg>--add-opens=java.compiler/com.sun.tools.javac.tree=ALL-UNNAMED</arg>
+                        </compilerArgs>
                     </configuration>
                 </plugin>
                 <plugin>
