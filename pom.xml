@@ -80,6 +80,7 @@
         </plugins>
     </build>
     <distributionManagement>
+        <!-- while releasing via github is nice - having a local nexus is just so much less hassle -->
         <repository>
             <id>nexus-releases</id>
             <url>http://localhost:9020/repository/maven-releases/</url>
