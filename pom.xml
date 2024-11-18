@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.olexyn</groupId>
 	<artifactId>min-root</artifactId>
-	<version>17.0.1</version>
+	<version>17.0.2</version>
 	<packaging>pom</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -93,12 +93,12 @@
 		<repository>
 			<id>repo-releases</id>
 			<name>repo</name>
-			<url>http://node185214-env-1496405.sh1.hidora.com:11374/releases</url>
+			<url>https://repo.plexworlds.com/releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>repo-snapshots</id>
 			<name>repo</name>
-			<url>http://node185214-env-1496405.sh1.hidora.com:11374/snapshots</url>
+			<url>https://repo.plexworlds.com/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
