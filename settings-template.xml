@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+          http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <servers>
+        <server>
+            <id>repo-releases</id>
+            <username>foo</username>
+            <password>bar</password>
+        </server>
+        <server>
+            <id>repo-snapshots</id>
+            <username>foo</username>
+            <password>bar</password>
+        </server>
+    </servers>
+    <mirrors>
+        <mirror>
+            <id>plexworlds-repo-releases</id>
+            <mirrorOf>repo-releases</mirrorOf>
+            <url>https://repo.plexworlds.com/releases</url>
+            <name>Plexworlds Releases</name>
+        </mirror>
+        <mirror>
+            <id>plexworlds-repo-snapshots</id>
+            <mirrorOf>repo-snapshots</mirrorOf>
+            <url>https://repo.plexworlds.com/snapshots</url>
+            <name>Plexworlds Snapshots</name>
+        </mirror>
+    </mirrors>
+
+    <profiles>
+        <profile>
+            <id>plexworlds</id>
+            <repositories>
+                <repository>
+                    <id>repo-releases</id>
+                    <url>https://repo.plexworlds.com/releases</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>repo-snapshots</id>
+                    <url>https://repo.plexworlds.com/snapshots</url>
+                    <releases>
+                        <enabled>false</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>plexworlds</activeProfile>
+    </activeProfiles>
+
+</settings>
