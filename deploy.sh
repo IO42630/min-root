@@ -2,4 +2,4 @@
 
 . .env
 
-mvn clean deploy -e -s $MVN_SETTINGS &
+mvn clean deploy -e -Prelease -s $MVN_SETTINGS &
