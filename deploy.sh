@@ -1,3 +1,5 @@
 #!/bin/bash
 
-mvn clean install deploy &
+. .env
+
+mvn clean deploy -e -s $MVN_SETTINGS &
