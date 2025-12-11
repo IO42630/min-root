@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.olexyn</groupId>
 	<artifactId>min-root</artifactId>
-	<version>25.0.2</version>
+	<version>21.1.0</version>
 	<packaging>pom</packaging>
 	<name>min-root</name>
 	<description>Parent POM for Java projects.</description>
@@ -29,7 +29,7 @@
 	</scm>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<xx.java.version>25</xx.java.version>
+		<xx.java.version>21</xx.java.version>
 		<xx.lombok.version>1.18.42</xx.lombok.version>
 	</properties>
 	<profiles>
