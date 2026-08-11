@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.olexyn</groupId>
 	<artifactId>min-root</artifactId>
-	<version>25.0.2</version>
+	<version>25.0.3</version>
 	<packaging>pom</packaging>
 	<name>min-root</name>
 	<description>Parent POM for Java projects.</description>
@@ -139,7 +139,6 @@
 							</path>
 						</annotationProcessorPaths>
 					</configuration>
-
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>

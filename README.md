@@ -7,20 +7,6 @@
 
 ## CI/CD
 
-* add this to `settings.xml`
-
-```xml
-
-<servers>
-	<server>
-		<id>repo-releases</id>
-		<username>foo</username>
-		<password>bar</password>
-	</server>
-	<server>
-		<id>repo-snapshots</id>
-		<username>foo</username>
-		<password>bar</password>
-	</server>
-</servers>
-```
+- detailed instructions can be found in `services/hosts/mvn-central`
+- `brew install gnupg`
+- verify `.env` is correct
