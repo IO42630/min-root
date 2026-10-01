@@ -3,7 +3,7 @@
 * parent pom for `min` projects.
 * determines:
     * plugin versions
-    * distribution management (push to reposilite)
+    * distribution management (push to mvn-central)
 
 ## CI/CD
 
