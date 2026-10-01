@@ -2,5 +2,5 @@
 *.iml
 /target/
 *.env
-/.agent/
+/.agents/
 !template*
