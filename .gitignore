@@ -2,5 +2,6 @@
 *.iml
 /target/
 *.env
-/.agents/
 !template*
+/.agents/
+.DS_Store
